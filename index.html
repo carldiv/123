@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="carl">
+      <form action="" onsubmit="validLogin(); return false;">
+        <h1 class="text">Login</h1>
+        <div class="user">
+          <i class="bx bx-user"></i>
+          <label for="">Email or Phone number</label>
+          <input type="text" name="Email" id="email" />
+        </div>
+        <div class="user">
+          <i class="bx bx-lock"></i>
+          <label for="">Password</label>
+          <input type="password" name="pass" id="pass" />
+        </div>
+        <button type="submit">LOGIN</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
+
